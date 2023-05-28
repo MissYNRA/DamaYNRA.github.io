@@ -1,0 +1,587 @@
+:root{
+    --amarillo:#ffff00;
+    --cyan:#00f2ad;
+    --azul:#1c2037;
+    --rosa:#f42f89;
+    --blanco: #ffffff;
+    --gris: #808080;
+}
+
+#nav .navegacion .valido{
+    color: var(--azul);
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-style: normal;
+    flex-direction: column;
+    transition: 0.3s;
+    transform: scale(1);
+}
+
+/* -----------------------------FIN Boton Activo NAV------------------------------- */
+
+/* ---------------------------------Menu Criticas---------------------------------- */
+
+#noticias{
+    margin-top: 100px;
+}
+
+.menunoticias{
+    display: flex; 
+    align-items: flex-end; 
+    margin-bottom: 30px;
+    width: 100%;
+    padding-left: 90px;
+    padding-right: 90px; 
+}
+
+.titulonoticias{
+    min-width: 228px;
+}
+
+.titulonoticias h2{
+    font-size: 3.3em; 
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.menunoticias hr{
+    border: 2.5px solid var(--azul); 
+    border-radius: 3px;
+    width: 100%; 
+}
+
+.articulosnoticias{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding-left: 90px; 
+    padding-right: 90px;
+}
+
+.articulos{ 
+    width: 23%;
+    height: 45%;
+    margin-bottom: 17px;
+}
+
+.articulosvarios{
+    display: flex; 
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.articulosvarios img{
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+.articulosvarios:hover img{
+    transform: scale(1.1);
+}
+
+.titulos{
+    position: absolute; 
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 30px; 
+    height: 100%; 
+    width: 100%; 
+    display: flex; 
+    align-items: flex-end;
+}
+
+.titulosn{
+    color: var(--blanco);
+}
+
+.titulosn .etiquetas{
+    margin-bottom: 10px;margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+    height: 25px;
+}
+
+.titulosn .etiquetas h4{
+    font-size: 0.9em;
+    color: var(--azul);
+    background-color: var(--amarillo);
+    width: auto;
+    height: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    transition: 0.3s; 
+}
+
+.titulos:hover .etiquetas h4{
+    background-color: var(--blanco);
+}
+
+.titulos:hover .cambiouno{
+    color: var(--amarillo);
+}
+
+.titulosn h2{
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    margin-bottom: 2px;
+    line-height: 20px;
+}
+
+.titulosn time{
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: #ffffffae;
+}
+
+.titulosn time i{
+    font-size: 0.9em;
+    margin-right: 4px;
+}
+
+.navpaginas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.navpaginasdos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.cajanav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.navpaginas a{
+    font-size: 1.4em;
+    font-weight: 600;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    margin: 4px;
+    text-decoration: underline 0.1em var(--blanco);
+    transition: text-decoration-color 250ms;
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 6px; 
+}
+
+.navpaginasdos a{
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    margin: 4px;
+    text-decoration: underline 0.1em var(--blanco);
+    transition: text-decoration-color 250ms;
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 6px; 
+}
+
+
+/* ----------------------------Nav entre paginas----------------------------- */
+
+.desactivado{
+    display: block;
+}
+
+.desactivado .previous{
+    border: 2.5px solid var(--rosa);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.desactivado .previous:hover{
+    border: 2.5px solid var(--azul);
+    transition: 0.3s;
+    background-color: var(--azul);
+    color: var(--cyan);
+}
+
+.desactivado .next{
+    display: none;
+    border: 2.5px solid var(--rosa);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.desactivado .next:hover{
+    border: 2.5px solid var(--azul);
+    transition: 0.3s;
+    background-color: var(--azul);
+    color: var(--cyan);
+}
+
+.ubicacionactual a{
+    color: var(--blanco);
+    background-color: var(--rosa);
+    text-decoration: none;
+}
+
+.ubicacionactual a:hover{
+    background-color: var(--azul);
+    color: var(--cyan);
+}
+
+.activo{
+    display: block;
+}
+
+.activo .next{
+    border: 2.5px solid var(--rosa);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.activo .next:hover{
+    border: 2.5px solid var(--azul);
+    transition: 0.3s;
+    background-color: var(--azul);
+    color: var(--cyan);
+}
+
+.activo .previous{
+    border: 2.5px solid var(--rosa);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.activo .previous:hover{
+    border: 2.5px solid var(--azul);
+    transition: 0.3s;
+    background-color: var(--azul);
+    color: var(--cyan);
+}
+
+/* --------------------------FIN Nav entre paginas--------------------------- */
+
+.navpaginas .normal:hover{
+    text-decoration: underline; 
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 6px; 
+    text-decoration-color: var(--rosa);
+    color: var(--rosa);
+}
+
+.separador{
+    width: 100%; 
+    border: 1px solid var(--azul); 
+    border-radius: 3px; 
+    margin: 65px 0px 0px 0px;
+}
+
+/* ----------------------------FIN Menu Etiquetas----------------------------- */
+
+/*------------------------------------Prime---------------------------------- */
+
+.hbo{
+    height: auto;
+    width: auto;
+}
+
+.bannerhbo{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: auto; 
+    margin: 70px 35px 70px 35px;
+
+}
+
+.hbo .bannerhbo img{
+    object-fit: contain;
+}
+
+/*---------------------------------FIN Prime--------------------------------- */
+
+/*---------------------------------BREAKPOINTS--------------------------------- */
+
+@media (min-width: 1280px) and (max-width: 3840px){
+}
+
+@media (max-width: 1280px) {
+
+    .titulos{
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 10px; 
+    }
+
+    .titulosn .etiquetas{
+        margin-bottom: 10px;
+        height: 20px;
+    }
+    
+    .titulosn .etiquetas h4{
+        font-size: 0.8em;
+    }
+
+    .titulosn h2{
+        font-size: 1em;
+        line-height: 18px;
+    }
+    
+    .titulosn time{
+        font-size: 0.8em;
+    }
+    
+}
+
+
+@media (max-width: 992px) {
+
+    #nav .navegacion .valido{
+        color: var(--azul);
+        text-align: center;
+        height: 70px;
+        min-width: 260px;   
+        letter-spacing: 0.5px;
+        font-size: 1.4em;
+        font-weight: 500;
+        border-top: 1px solid #1c2037c3;
+        font-style: normal;
+        transition: 0.3s;
+        transform: scale(1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #00f2ad; 
+    }
+
+    .articulos{ 
+        width: 47.5%;
+        height: 22.5%;
+        margin-bottom: 23px;
+    }
+
+    .titulos{
+        padding-bottom: 20px;
+        padding-left: 25px;
+        padding-right: 30px; 
+    }     
+
+    .articulosnoticias{
+        padding-left: 62px; 
+        padding-right: 62px;
+    }
+
+    .menunoticias{
+        padding-left: 60px;
+        padding-right: 60px; 
+    }
+
+    .titulosn h2{
+        font-size: 1.4em;
+        line-height: 25px;
+    }
+    
+    .titulosn time{
+        font-size: 1em;
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-style: italic;
+        color: #ffffffae;
+    }
+    
+    .titulosn time i{
+        font-size: 1em;
+        margin-right: 4px;
+    }
+
+    .titulosn .etiquetas{
+        height: 30px;
+        margin-bottom: 13px;
+    }
+    
+    .titulosn .etiquetas h4{
+        font-size: 1.1em;
+    }
+    
+    .bannerhbo{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    
+    .titulos{
+        padding-bottom: 20px;
+        padding-left: 25px;
+        padding-right: 15px; 
+    }     
+
+    .titulosn h2{
+        font-size: 1.1em;
+        line-height: 20px;
+    }
+    
+    .titulosn time{
+        font-size: 0.9em;
+    }
+    
+    .titulosn time i{
+        font-size: 0.9em;
+        margin-right: 4px;
+    }
+
+    .titulosn.etiquetas{
+        height: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .titulosn .etiquetas h4{
+        font-size: 0.9em;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    #nav .navegacion .valido{
+        color: var(--azul);
+        text-align: center;
+        height: 50px;
+        min-width: 200px;   
+        letter-spacing: 0.5px;
+        font-size: 1.1em;
+        font-weight: 500;
+        border-top: 1px solid #1c2037c3;
+        font-style: normal;
+        transition: 0.3s;
+        transform: scale(1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #00f2ad; 
+    }
+
+    #noticias{
+        margin-top: 50px;
+    }
+
+
+    .articulos{ 
+        width: 100%;
+        height: 11.5%;
+        margin-bottom: 15px;
+    }
+
+    .menunoticias{
+        display: flex; 
+        flex-wrap: wrap; 
+        margin-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px; 
+    }
+
+    .articulosnoticias{
+        padding-left: 33px; 
+        padding-right: 33px;
+    }
+
+    .titulonoticias{
+        margin-bottom: -6px;
+        width: 100%;
+    } 
+
+    .menunoticias hr{
+        width: 100%;
+    }
+
+    .titulonoticias h2{
+        font-size: 2.6em; 
+        font-weight: 800;
+        line-height: 50px;
+        margin-bottom: 7px;
+    }
+
+    .titulosn .etiquetas{
+        height: 32px;
+        margin-bottom: 13px;
+    }
+
+    .titulosn .etiquetas h4{
+        font-size: 1.2em;
+    }
+
+    .titulosn h2{
+        font-size: 1.6em;
+        margin-bottom: 5px;
+        line-height: 30px;
+    }
+    
+    .titulosn time{
+        font-size: 1.1em;
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-style: italic;
+        color: #ffffffae;
+    }
+    
+    .titulosn time i{
+        font-size: 0.9em;
+        margin-right: 4px;
+    }
+    
+    .bannerhbo{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .navpaginas a{
+        font-size: 1.2em;
+        height: 47px;
+        width: 47px;
+    }
+    
+}
+
+
+
+@media (max-width: 400px) {
+    
+    .cajanav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+}
+
+
+
+
