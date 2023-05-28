@@ -2698,7 +2698,7 @@ section{
         border: none;
     }
 
-    .redespie a{
+    .redespie a:hover{
         color: var(--blanco);
     }
 
@@ -2711,13 +2711,13 @@ section{
         border: none;
     }
 
-    #nav .navegacion .dos{
+    #nav .navegacion .dos:hover{
         border: 2px solid var(--rosa);
         background-color: var(--blanco);
         color: var(--azul);
     }
     
-    #nav .navegacion .tres{
+    #nav .navegacion .tres:hover{
         border: 2px solid var(--rosa);
         background-color: var(--blanco);
         color: var(--azul);
