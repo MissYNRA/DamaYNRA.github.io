@@ -2237,20 +2237,20 @@ section{
 
 
     #nav .navegacion .unoa{
-        height: 50px;
-        font-size: 1.1em;
+        height: 53px;
+        font-size: 1.3em;
         min-width: 200px; 
     }
 
     #nav .navegacion .unob{
-        height: 50px;
-        font-size: 1.1em;
+        height: 53px;
+        font-size: 1.3em;
         min-width: 200px; 
     }
 
     #nav .navegacion .unoc{
-        height: 50px;
-        font-size: 1.1em;
+        height: 53px;
+        font-size: 1.3em;
         min-width: 200px; 
     }
     
@@ -2696,6 +2696,21 @@ section{
     .btn{
         background: var(--rosa);
         border: none;
+    }
+
+    .redespie a:hover{
+        color: var(--blanco);
+    }
+    #nav .navegacion .dos:hover{
+        border: 2px solid var(--rosa);
+        background-color: var(--blanco);
+        color: var(--azul);
+    }
+    
+    #nav .navegacion .tres:hover{
+        border: 2px solid var(--rosa);
+        background-color: var(--blanco);
+        color: var(--azul);
     }
 
     .redespie a:hover{
