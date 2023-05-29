@@ -934,6 +934,16 @@
         color: var(--azul);
     }
 
+    
+    .navpaginas .nav-linkdos:hover{
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--blanco);
+        color: var(--azul);
+    }
+
+
 
     .desactivado .previous:active{
         border: 2.5px solid var(--azul);
@@ -974,14 +984,6 @@
         text-decoration-color: var(--rosa);
         color: var(--rosa);
         transition: 0.4s;
-    }
-
-    .navpaginas .nav-linkdos:hover{
-        text-decoration: underline; 
-        text-decoration-thickness: 0.5px;
-        text-underline-offset: 6px; 
-        text-decoration-color: var(--blanco);
-        color: var(--azul);
     }
 
     .navpaginas .nav-linkdos:active{
