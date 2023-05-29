@@ -2714,16 +2714,6 @@ section{
         color: var(--cyan);
     }
 
-    .botonrosa:hover{
-        background-color: var(--azul);
-        text-decoration: none;
-        height: 48px;
-        width: 140px;
-        border: 2.5px solid var(--azul); 
-        transition: 0.2s ease-in-out;
-        transform: scale(1.1);
-    }
-
     .botonrosa:hover a{
         color: var(--cyan);
         font-weight: 400;
@@ -2738,34 +2728,20 @@ section{
         border: none;
     }
 
-    #nav .navegacion .dos:hover{
+    #nav .navegacion .dos{
         border: 2px solid var(--cyan);
         background-color: var(--blanco);
         color: var(--azul);
     }
     
-    #nav .navegacion .tres:hover{
+    #nav .navegacion .tres{
         border: 2px solid var(--rosa);
         background-color: var(--blanco);
         color: var(--azul);
     }
 
-    .redespie a:hover{
+    .redespie a{
         color: var(--blanco);
     }
 
-    .botonrosa:hover{
-        background-color: var(--blanco);
-        text-decoration: none;
-        height: 48px;
-        width: 140px;
-        border: 2.5px solid var(--rosa); 
-        transition: none;
-        transform: none;
-    }
-
-    .botonrosa:hover a{
-        color: var(--azul);
-        font-weight: 400;
-    }
 }
