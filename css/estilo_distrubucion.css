@@ -887,15 +887,6 @@
         text-decoration-color: var(--azul);
         color: var(--azul);
     }
-    
-    .navpaginas a:active{
-        text-decoration: underline; 
-        text-decoration-thickness: 0.5px;
-        text-underline-offset: 6px; 
-        text-decoration-color: var(--rosa);
-        color: var(--rosa);
-        transition: 0.4s;
-    }
 
 
     .desactivado .previous:hover{
@@ -912,9 +903,9 @@
         color: var(--azul);
     }
 
-    .ubicacionactual a:hover{
+    .ubicacionactual .nav-link:hover{
         background-color: var(--rosa);
-        color: var(--cyan);
+        color: var(--blanco);
         text-decoration: none;
     }
 
@@ -944,6 +935,14 @@
     }
 
 
+    .navpaginas .nav-link:active{
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--rosa);
+        color: var(--rosa);
+        transition: 0.4s;
+    }
 
     .desactivado .previous:active{
         border: 2.5px solid var(--azul);
