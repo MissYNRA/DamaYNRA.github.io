@@ -174,7 +174,7 @@
     justify-content: space-around
 }
 
-.navpaginas a{
+.navpaginas .nav-link{
     font-size: 1.4em;
     font-weight: 600;
     border-radius: 50%;
@@ -189,9 +189,10 @@
     transition: text-decoration-color 250ms;
     text-decoration-thickness: 0.5px;
     text-underline-offset: 6px; 
+    color: var(--azul);
 }
 
-.navpaginasdos a{
+.navpaginasdos .nav-link{
     font-size: 1.5em;
     font-weight: 600;
     border-radius: 50%;
@@ -206,7 +207,9 @@
     transition: text-decoration-color 250ms;
     text-decoration-thickness: 0.5px;
     text-underline-offset: 6px; 
+    color: var(--azul);
 }
+
 
 
 /* ----------------------------Nav entre paginas----------------------------- */
@@ -219,71 +222,82 @@
     border: 2.5px solid var(--rosa);
     transition: 0.3s;
     text-decoration: none;
+    color: var(--azul);
 }
 
 .desactivado .previous:hover{
     border: 2.5px solid var(--azul);
-    transition: 0.3s;
     background-color: var(--azul);
-    color: var(--cyan);
+    color: var(--azul);
 }
 
 .desactivado .next{
     display: none;
     border: 2.5px solid var(--rosa);
-    transition: 0.3s;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .desactivado .next:hover{
     border: 2.5px solid var(--azul);
-    transition: 0.3s;
     background-color: var(--azul);
     color: var(--cyan);
 }
 
-.ubicacionactual a{
+.ubicacionactual .nav-link{
     color: var(--blanco);
     background-color: var(--rosa);
     text-decoration: none;
+    transition: 0.3s;
 }
 
-.ubicacionactual a:hover{
+.ubicacionactual .nav-link:hover{
     background-color: var(--azul);
     color: var(--cyan);
+    text-decoration: none;
 }
 
 .activo{
     display: block;
+    color: var(--azul);
 }
 
 .activo .next{
     border: 2.5px solid var(--rosa);
     transition: 0.3s;
     text-decoration: none;
+    color: var(--azul);
 }
 
 .activo .next:hover{
     border: 2.5px solid var(--azul);
-    transition: 0.3s;
     background-color: var(--azul);
     color: var(--cyan);
+    text-decoration: none;
 }
 
 .activo .previous{
     border: 2.5px solid var(--rosa);
     transition: 0.3s;
     text-decoration: none;
+    color: var(--azul);
 }
 
 .activo .previous:hover{
     border: 2.5px solid var(--azul);
-    transition: 0.3s;
     background-color: var(--azul);
     color: var(--cyan);
+    text-decoration: none;
 }
 
-/* --------------------------FIN Nav entre paginas--------------------------- */
+.navpaginas .normal{
+    text-decoration: underline; 
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 6px; 
+    text-decoration-color: var(--blanco);
+    color: var(--azul);
+    transition: 0.3s;
+}
 
 .navpaginas .normal:hover{
     text-decoration: underline; 
@@ -292,6 +306,25 @@
     text-decoration-color: var(--rosa);
     color: var(--rosa);
 }
+
+.navpaginasdos .normal{
+    text-decoration: underline; 
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 6px; 
+    text-decoration-color: var(--blanco);
+    color: var(--azul);
+    transition: 0.3s;
+}
+
+.navpaginasdos .normal:hover{
+    text-decoration: underline; 
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 6px; 
+    text-decoration-color: var(--rosa);
+    color: var(--rosa);
+}
+
+/* --------------------------FIN Nav entre paginas--------------------------- */
 
 .separador{
     width: 100%; 
@@ -431,7 +464,82 @@
         margin-left: 60px;
         margin-right: 60px;
     }
+
+    .ubicacionactual .nav-link:hover{
+        background-color: var(--rosa);
+        color: var(--blanco);
+        text-decoration: none;
+    }
+
+    .ubicacionactual .nav-link:active{
+        background-color: var(--azul);
+        color: var(--cyan);
+        text-decoration: none;
+        transition: 0.4s;
+    }
+
+    .navpaginas .normal:hover{
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--blanco);
+        color: var(--azul);
+    }
+
+    .navpaginas .normal:active{
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--rosa);
+        color: var(--rosa);
+        transition: 0.4s;
+    }
+
+    .navpaginasdos .normal:hover{
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--blanco);
+        color: var(--azul);
+    }
+
+    .navpaginasdos .normal:active{
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--rosa);
+        color: var(--rosa);
+        transition: 0.4s;
+    }
+
+    .activo .nav-link:hover{
+        border: 2.5px solid var(--rosa);
+        background-color: var(--blanco);
+        color: var(--azul);
+        text-decoration: none;
+    }
+
+    .activo .nav-link:active{
+        border: 2.5px solid var(--azul);
+        background-color: var(--azul);
+        color: var(--cyan);
+        text-decoration: none;
+        transition: 0.4s;
+    }
     
+    .activo .next:hover{
+        border: 2.5px solid var(--rosa);
+        background-color: var(--blanco);
+        color: var(--azul);
+        text-decoration: none;
+    }
+
+    .activo .next:active{
+        border: 2.5px solid var(--azul);
+        background-color: var(--azul);
+        color: var(--cyan);
+        text-decoration: none;
+    }
 }
 
 @media (max-width: 700px) {
