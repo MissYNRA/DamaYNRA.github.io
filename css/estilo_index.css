@@ -2702,33 +2702,6 @@ section{
         color: var(--blanco);
     }
 
-    #nav .navegacion .dos:hover{
-        border: 2px solid var(--azul);
-        background-color: var(--azul);
-        color: var(--cyan);
-    }
-    
-    #nav .navegacion .tres:hover{
-        border: 2px solid var(--azul);
-        background-color: var(--azul);
-        color: var(--cyan);
-    }
-
-    .botonrosa:hover{
-        background-color: var(--azul);
-        text-decoration: none;
-        height: 48px;
-        width: 140px;
-        border: 2.5px solid var(--azul); 
-        transition: 0.2s ease-in-out;
-        transform: scale(1.1);
-    }
-
-    .botonrosa:hover a{
-        color: var(--azul);
-        font-weight: 400;
-    }
-
 }
 
 @media (hover: none) {
@@ -2738,31 +2711,32 @@ section{
         border: none;
     }
 
-    #nav .navegacion .dos:hover{
+    #nav .navegacion .dos{
         border: 2px solid var(--rosa);
         background-color: var(--blanco);
         color: var(--azul);
     }
     
-    #nav .navegacion .tres:hover{
+    #nav .navegacion .tres{
         border: 2px solid var(--rosa);
         background-color: var(--blanco);
         color: var(--azul);
     }
 
-    .redespie a:hover{
+    .redespie a{
         color: var(--blanco);
     }
 
-    .botonrosa:hover{
+    .botonrosa{
         background-color: var(--blanco);
         text-decoration: none;
         height: 48px;
         width: 140px;
-        border: 2.5px solid var(--rosa); 
+        border: 2.5px solid var(--rosa);
+        transform: scale(1); 
     }
 
-    .botonrosa:hover a{
+    .botonrosa a{
         color: var(--cyan);
         font-weight: 400;
     }
