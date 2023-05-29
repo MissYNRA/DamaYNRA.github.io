@@ -1292,6 +1292,22 @@ section{
         border: none;
     }
 
+    .redespie a:hover{
+        color: var(--blanco);
+    }
+
+    #nav .navegacion .dos:hover{
+        border: 2px solid var(--azul);
+        background-color: var(--azul);
+        color: var(--cyan);
+    }
+    
+    #nav .navegacion .tres:hover{
+        border: 2px solid var(--azul);
+        background-color: var(--azul);
+        color: var(--cyan);
+    }
+
 }
 
 @media (hover: none) {
@@ -1316,4 +1332,5 @@ section{
     .redespie a:hover{
         color: var(--blanco);
     }
+
 }
