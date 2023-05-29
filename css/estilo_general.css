@@ -1352,22 +1352,6 @@ section{
         border: none;
     }
 
-    .redespie a:hover{
-        color: var(--cyan);
-    }
-
-    #nav .navegacion .dos:hover{
-        border: 2px solid var(--azul);
-        background-color: var(--azul);
-        color: var(--cyan);
-    }
-    
-    #nav .navegacion .tres:hover{
-        border: 2px solid var(--azul);
-        background-color: var(--azul);
-        color: var(--cyan);
-    }
-
 }
 
 @media (hover: none) {
@@ -1375,22 +1359,6 @@ section{
     .btn{
         background: var(--rosa);
         border: none;
-    }
-
-    #nav .navegacion .dos:hover{
-        border: 2px solid var(--rosa);
-        background-color: var(--blanco);
-        color: var(--azul);
-    }
-    
-    #nav .navegacion .tres:hover{
-        border: 2px solid var(--rosa);
-        background-color: var(--blanco);
-        color: var(--azul);
-    }
-
-    .redespie a:hover{
-        color: var(--blanco);
     }
 
 }
