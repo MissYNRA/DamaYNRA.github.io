@@ -2136,12 +2136,29 @@ section{
         font-size: clamp(1.4rem, 1.1569rem + 1.0373vw, 1.8rem);
     }
 
-
     a:not(.redespie):hover{
         color: var(--blanco);
     }
 
     .redespie a:active{
+        color: var(--cyan);
+        transition: 0.1s;
+    }
+
+    img:not(.noticiapuno):hover{
+        transform: none;
+    }
+
+    .noticiapuno:active img{
+        transform: scale(1.1);
+        transition: 0.1s;
+    }
+
+    .cambiouno:not(.noticiapuno):hover{
+        color: var(--blanco);
+    }
+
+    .noticiapuno:active .cambiouno{
         color: var(--cyan);
         transition: 0.1s;
     }
