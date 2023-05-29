@@ -2698,25 +2698,20 @@ section{
         border: none;
     }
 
-    .redespie a{
+    .redespie a:hover{
         color: var(--cyan);
     }
 
-    #nav .navegacion .dos{
+    #nav .navegacion .dos:hover{
         border: 2px solid var(--azul);
         background-color: var(--azul);
         color: var(--cyan);
     }
     
-    #nav .navegacion .tres{
+    #nav .navegacion .tres:hover{
         border: 2px solid var(--azul);
         background-color: var(--azul);
         color: var(--cyan);
-    }
-
-    .botonrosa:hover a{
-        color: var(--cyan);
-        font-weight: 400;
     }
 
 }
