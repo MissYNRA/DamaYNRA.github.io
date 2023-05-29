@@ -668,7 +668,7 @@
     text-decoration: none;
 }
 
-.navpaginas .normal:hover{
+.navpaginas .nav-link .normal:hover{
     text-decoration: underline; 
     text-decoration-thickness: 0.5px;
     text-underline-offset: 6px; 
