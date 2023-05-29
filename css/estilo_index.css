@@ -1112,11 +1112,6 @@ section{
     transform: scale(1.1);
 }
 
-.cardfinal:hover .imagen{
-    width: 100%;
-    height: 100%;
-    transform: scale(1.1);
-}
 
 .criticainf{
     position: absolute;
@@ -1143,10 +1138,6 @@ section{
 }
 
 .card:hover .eticritica{
-    background-color: var(--blanco);
-}
-
-.cardfinal:hover .eticritica{
     background-color: var(--blanco);
 }
 
@@ -1182,10 +1173,6 @@ section{
 }
 
 .card:hover .cambiouno{
-    color: var(--amarillo);
-}
-
-.cardfinal:hover .cambiouno{
     color: var(--amarillo);
 }
 
@@ -2327,6 +2314,94 @@ section{
 
     .topsinfo:active .cambiouno{
         color: var(--amarillo);
+        transition: 0.4s;
+    }
+
+    .card:hover .imagen{
+        width: 100%;
+        height: 100%;
+        transform: scale(1);
+    }
+
+    .card:hover .eticritica{
+        background-color: var(--amarillo);
+    }    
+    
+    .card:hover .cambiouno{
+        color: var(--blanco);
+    }
+
+    .criticabotones .botonrosa:hover{
+        background-color: var(--blanco);
+        text-decoration: none;
+        height: 48px;
+        width: 140px;
+        border: 2.5px solid var(--rosa); 
+        transform: scale(1);
+    }
+
+    .criticabotones .botonrosa:hover a{
+        color: var(--azul);
+        font-weight: 600;
+    }
+    
+    .card:active .imagen{
+        width: 100%;
+        height: 100%;
+        transform: scale(1.1);
+        transition: 0.4s;
+    }
+
+    .card:active.eticritica{
+        background-color: var(--blanco);
+        transition: 0.4s;
+    }
+    
+    .card:active .cambiouno{
+        color: var(--amarillo);
+        transition: 0.4s;
+    }
+
+    .criticabotones .botonrosa:active{
+        background-color: var(--azul);
+        text-decoration: none;
+        height: 48px;
+        width: 140px;
+        border: 2.5px solid var(--azul); 
+        transform: scale(1.1);
+        transition: 0.4s;
+    }
+
+    .criticabotones .botonrosa:active a{
+        color: var(--cyan);
+        font-weight: 400;
+        transition: 0.4s;
+    }
+    
+    .cajados ul li:hover{
+        color: var(--blanco);
+        border-bottom: 1.5px solid var(--azul);
+    }
+
+    .cajados ul li:active{
+        color: var(--blanco);
+        border-bottom: 1.5px solid var(--blanco);
+        transition: 0.4s;
+    }
+
+    .noticiaspie:hover h2{ 
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--azul);
+    }
+
+    .noticiaspie:active h2{ 
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--blanco);
+        transition: 0.4s;
     }
 
 }
