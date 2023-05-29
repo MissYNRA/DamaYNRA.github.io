@@ -2136,6 +2136,15 @@ section{
         font-size: clamp(1.4rem, 1.1569rem + 1.0373vw, 1.8rem);
     }
 
+
+    a:not(.redespie):hover{
+        color: var(--blanco);
+    }
+
+    .redespie a:active{
+        color: var(--cyan);
+        transition: 0.1s;
+    }
 }
 
 @media (max-width: 900px){
@@ -2698,41 +2707,6 @@ section{
         border: none;
     }
 
-    .botonrosa{
-        background-color: var(--blanco);
-        text-decoration: none;
-        height: 48px;
-        width: 140px;
-        border: 2.5px solid var(--rosa); 
-        transition: 0.2s ease-in-out;
-        transform: scale(1);
-    }
-
-    .botonrosa:hover{
-        background-color: var(--azul);
-        text-decoration: none;
-        height: 48px;
-        width: 140px;
-        border: 2.5px solid var(--azul); 
-        transform: scale(1.1);
-    }
-
-    .botonrosa a{
-        text-decoration: none;
-        color: var(--azul);
-        font-size: 1.3em;
-        font-weight: 600;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .botonrosa:hover a{
-        color: var(--cyan);
-        font-weight: 400;
-        transition: .1s;
-    }
-
 }
 
 @media (hover: none) and (pointer: coarse){
@@ -2740,42 +2714,6 @@ section{
     .btn{
         background: var(--rosa);
         border: none;
-    }
-
-    .botonrosa{
-        background-color: var(--blanco);
-        text-decoration: none;
-        height: 48px;
-        width: 140px;
-        border: 2.5px solid var(--rosa); 
-        transition: 0.2s ease-in-out;
-        transform: scale(1);
-    }
-
-    .botonrosa:active{
-        background-color: var(--azul);
-        text-decoration: none;
-        height: 48px;
-        width: 140px;
-        border: 2.5px solid var(--azul); 
-        transform: scale(1.1);
-        transition: .1s;
-    }
-
-    .botonrosa a{
-        text-decoration: none;
-        color: var(--azul);
-        font-size: 1.3em;
-        font-weight: 600;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .botonrosa:active a{
-        color: var(--cyan);
-        font-weight: 400;
-        transition: .1s;
     }
 
 }
