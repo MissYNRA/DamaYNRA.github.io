@@ -2145,21 +2145,12 @@ section{
         transition: 0.1s;
     }
 
-    img:not(.noticiapuno):hover{
+    .figure:not(.noticiapuno):hover{
         transform: none;
     }
 
     .noticiapuno:active img{
         transform: scale(1.1);
-        transition: 0.1s;
-    }
-
-    .cambiouno:not(.noticiapuno):hover{
-        color: var(--blanco);
-    }
-
-    .noticiapuno:active .cambiouno{
-        color: var(--cyan);
         transition: 0.1s;
     }
 }
