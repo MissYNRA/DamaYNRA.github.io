@@ -1293,7 +1293,7 @@ section{
     }
 
     .redespie a:hover{
-        color: var(--blanco);
+        color: var(--cyan);
     }
 
     #nav .navegacion .dos:hover{
