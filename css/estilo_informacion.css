@@ -225,10 +225,10 @@ input[type=email]:focus {
     outline: none;
 }
 
-textarea[type=area]:focus{
+textarea:focus{
     border: 2px solid var(--rosa);
     outline: none;
-
+    border-radius: none;
 }
 
 .cajanombre ::placeholder{
@@ -270,9 +270,6 @@ textarea[type=area]:focus{
     margin-bottom: 20px;
 }
 
-.correo:hover{
-    border: 2px solid var(--azul); 
-}
 
 .cajasunto ::placeholder{
     color:var(--gris);
@@ -301,9 +298,6 @@ textarea[type=area]:focus{
     border-radius: none;
 }
 
-.asunto:hover{
-    border: 2px solid var(--azul); 
-}
 
 .cajanumero ::placeholder{
     color:var(--gris);
@@ -321,10 +315,6 @@ textarea[type=area]:focus{
     border-radius: none;
 }
 
-.numero:hover{
-    border: 2px solid var(--azul); 
-}
-
 .cajamensaje ::placeholder{
     color:var(--gris);
     font-size: 1em;
@@ -340,10 +330,6 @@ textarea[type=area]:focus{
     padding-top: 5px;
     transition: 0.3s;
     border-radius: none;
-}
-
-.mensaje:hover{
-    border: 2px solid var(--azul); 
 }
 
 .botones{
@@ -566,12 +552,6 @@ textarea[type=area]:focus{
         border: 2.5px solid var(--azul);
         color: var(--cyan); 
         transition: 0.4s;
-    }
-
-    textarea[type=area]:focus{
-        border: 2px solid var(--rosa);
-        outline: none;
-    
     }
 
 }
