@@ -1013,6 +1013,66 @@ section{
         object-fit: cover;
     }
     
+    
+    #nav .navegacion .tres:hover{
+        border: 2px solid var(--rosa);
+        background-color: var(--blanco);
+        color: var(--azul);
+    }
+    
+    #nav .navegacion .dos:hover{
+        border: 2px solid var(--rosa);
+        background-color: var(--blanco);
+        color: var(--azul);
+    }
+
+    #nav .navegacion .tres:active{
+        border: 2px solid var(--azul);
+        background-color: var(--azul);
+        color: var(--cyan);
+    }
+    
+    #nav .navegacion .dos:active{
+        border: 2px solid var(--azul);
+        background-color: var(--azul);
+        color: var(--cyan);
+    }
+
+    a:not(.redespie):hover{
+        color: var(--blanco);
+    }
+
+    .redespie a:active{
+        color: var(--cyan);
+        transition: 0.4s;
+    }
+    
+    .cajados ul li:hover{
+        color: var(--blanco);
+        border-bottom: 1.5px solid var(--azul);
+    }
+
+    .cajados ul li:active{
+        color: var(--blanco);
+        border-bottom: 1.5px solid var(--blanco);
+        transition: 0.4s;
+    }
+
+    .noticiaspie:hover h2{ 
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--azul);
+    }
+
+    .noticiaspie:active h2{ 
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--blanco);
+        transition: 0.4s;
+    }
+
 }
 
 @media (min-width: 600px) and (max-width: 992px){
@@ -1232,66 +1292,6 @@ section{
         object-fit: cover;
     }
 
-    #nav .navegacion .tres:hover{
-        border: 2px solid var(--rosa);
-        background-color: var(--blanco);
-        color: var(--azul);
-    }
-    
-    #nav .navegacion .dos:hover{
-        border: 2px solid var(--rosa);
-        background-color: var(--blanco);
-        color: var(--azul);
-    }
-
-    #nav .navegacion .tres:active{
-        border: 2px solid var(--azul);
-        background-color: var(--azul);
-        color: var(--cyan);
-    }
-    
-    #nav .navegacion .dos:active{
-        border: 2px solid var(--azul);
-        background-color: var(--azul);
-        color: var(--cyan);
-    }
-
-    a:not(.redespie):hover{
-        color: var(--blanco);
-    }
-
-    .redespie a:active{
-        color: var(--cyan);
-        transition: 0.4s;
-    }
-    
-    .cajados ul li:hover{
-        color: var(--blanco);
-        border-bottom: 1.5px solid var(--azul);
-    }
-
-    .cajados ul li:active{
-        color: var(--blanco);
-        border-bottom: 1.5px solid var(--blanco);
-        transition: 0.4s;
-    }
-
-    .noticiaspie:hover h2{ 
-        text-decoration: underline; 
-        text-decoration-thickness: 0.5px;
-        text-underline-offset: 6px; 
-        text-decoration-color: var(--azul);
-    }
-
-    .noticiaspie:active h2{ 
-        text-decoration: underline; 
-        text-decoration-thickness: 0.5px;
-        text-underline-offset: 6px; 
-        text-decoration-color: var(--blanco);
-        transition: 0.4s;
-    }
-
-
 }
 
 
@@ -1354,7 +1354,7 @@ section{
 
 }
 
-@media (hover: none) {
+@media (hover: none) and (pointer: coarse){
 
     .btn{
         background: var(--rosa);
