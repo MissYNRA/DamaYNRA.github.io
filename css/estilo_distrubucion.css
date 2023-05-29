@@ -293,6 +293,14 @@
     margin-top: 35px;
 }
 
+.navpaginas .nav-linkdos{
+    text-decoration: underline; 
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 6px; 
+    text-decoration-color: var(--blanco);
+    color: var(--azul);
+}
+
 .separador{
     width: 100%; 
     border: 1px solid var(--azul); 
@@ -658,10 +666,6 @@
     text-decoration: none;
 }
 
-
-
-/* --------------------------FIN Nav entre paginas--------------------------- */
-
 .navpaginas .normal:hover{
     text-decoration: underline; 
     text-decoration-thickness: 0.5px;
@@ -669,6 +673,8 @@
     text-decoration-color: var(--rosa);
     color: var(--rosa);
 }
+
+/* --------------------------FIN Nav entre paginas--------------------------- */
 
 .separador{
     width: 100%; 
@@ -846,6 +852,147 @@
         margin-left: 60px;
         margin-right: 60px;
     } 
+
+    .articulosvarios:hover img{
+        transform: scale(1);
+    }
+
+    .titulos:hover .etiquetas h4{
+        background-color: var(--amarillo);
+    }
+
+    .titulos:hover .cambiouno{
+        color: var(--blanco);
+    }
+
+    .articulosvarios:active img{
+        transform: scale(1.1);
+        transition: 0.4s;
+    }
+
+    .titulos:active .etiquetas h4{
+        background-color: var(--blanco);
+        transition: 0.4s;
+    }
+
+    .titulos:active .cambiouno{
+        color: var(--amarillo);
+        transition: 0.4s;
+    }
+    
+    .navpaginas a:hover{
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--azul);
+        color: var(--azul);
+    }
+    
+    .navpaginas a:active{
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--rosa);
+        color: var(--rosa);
+        transition: 0.4s;
+    }
+
+
+    .desactivado .previous:hover{
+        border: 2.5px solid var(--rosa);
+        transition: 0.3s;
+        background-color: var(--blanco);
+        color: var(--azul);
+    }
+    
+    .desactivado .next:hover{
+        border: 2.5px solid var(--rosa);
+        transition: 0.3s;
+        background-color: var(--blanco);
+        color: var(--azul);
+    }
+
+    .ubicacionactual a:hover{
+        background-color: var(--rosa);
+        color: var(--cyan);
+        text-decoration: none;
+    }
+
+    .activo .next:hover{
+        border: 2.5px solid var(--rosa);
+        transition: 0.3s;
+        background-color: var(--blanco);
+        color: var(--azul);
+        text-decoration: none;
+    }
+    
+    .navpaginas .normal:hover{
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--blanco);
+        color: var(--azul);
+    }
+
+
+    .desactivado .previous:active{
+        border: 2.5px solid var(--azul);
+        transition: 0.3s;
+        background-color: var(--azul);
+        color: var(--cyan);
+        transition: 0.4s;
+    }
+    
+    .desactivado .next:active{
+        border: 2.5px solid var(--azul);
+        transition: 0.3s;
+        background-color: var(--azul);
+        color: var(--cyan);
+        transition: 0.4s;
+    }
+    
+    .ubicacionactual .nav-link:active{
+        color: var(--cyan);
+        background-color: var(--azul);
+        text-decoration: none;
+        transition: 0.4s;
+    }
+
+    .activo .next:active{
+        border: 2.5px solid var(--azul);
+        transition: 0.3s;
+        background-color: var(--azul);
+        color: var(--cyan);
+        text-decoration: none;
+        transition: 0.4s;
+    }
+    
+    .navpaginas .normal:active{
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--rosa);
+        color: var(--rosa);
+        transition: 0.4s;
+    }
+
+    .navpaginas .nav-linkdos:hover{
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--blanco);
+        color: var(--azul);
+    }
+
+    .navpaginas .nav-linkdos:active{
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--rosa);
+        color: var(--rosa);
+        transition: 0.4s;
+    }
+    
 }
 
 
