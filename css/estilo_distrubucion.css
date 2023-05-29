@@ -631,13 +631,11 @@
 .desactivado .next{
     display: none;
     border: 2.5px solid var(--rosa);
-    transition: 0.3s;
     text-decoration: none;
 }
 
 .desactivado .next:hover{
     border: 2.5px solid var(--azul);
-    transition: 0.3s;
     background-color: var(--azul);
     color: var(--cyan);
 }
@@ -646,6 +644,7 @@
     color: var(--blanco);
     background-color: var(--rosa);
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .ubicacionactual .nav-link:hover{
@@ -662,13 +661,21 @@
 
 .activo .next:hover{
     border: 2.5px solid var(--azul);
-    transition: 0.3s;
     background-color: var(--azul);
     color: var(--cyan);
     text-decoration: none;
 }
 
-.navpaginas .nav-link .normal:hover{
+.navpaginas .normal{
+    text-decoration: underline; 
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 6px; 
+    text-decoration-color: var(--blanco);
+    color: var(--azul);
+    transition: 0.3s;
+}
+
+.navpaginas .normal:hover{
     text-decoration: underline; 
     text-decoration-thickness: 0.5px;
     text-underline-offset: 6px; 
