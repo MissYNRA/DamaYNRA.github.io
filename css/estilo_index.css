@@ -2698,17 +2698,17 @@ section{
         border: none;
     }
 
-    .redespie a:hover{
+    .redespie a{
         color: var(--cyan);
     }
 
-    #nav .navegacion .dos:hover{
+    #nav .navegacion .dos{
         border: 2px solid var(--azul);
         background-color: var(--azul);
         color: var(--cyan);
     }
     
-    #nav .navegacion .tres:hover{
+    #nav .navegacion .tres{
         border: 2px solid var(--azul);
         background-color: var(--azul);
         color: var(--cyan);
@@ -2728,19 +2728,19 @@ section{
         border: none;
     }
 
-    #nav .navegacion .dos:hover{
-        border: 2px solid var(--cyan);
+    #nav .navegacion .dos{
+        border: 2px solid var(--rosa);
         background-color: var(--blanco);
         color: var(--azul);
     }
     
-    #nav .navegacion .tres:hover{
+    #nav .navegacion .tres{
         border: 2px solid var(--rosa);
         background-color: var(--blanco);
         color: var(--azul);
     }
 
-    .redespie a:hover{
+    .redespie a{
         color: var(--blanco);
     }
 
