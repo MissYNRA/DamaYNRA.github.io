@@ -182,7 +182,7 @@
     color: var(--azul);
 }
 
-.navpaginas .normal{
+.navpaginas a{
     font-size: 1.5em;
     font-weight: 600;
     border-radius: 50%;
@@ -200,7 +200,7 @@
     color: var(--azul);
 }
 
-.navpaginas .normal:hover{
+.navpaginas .nav-link:hover{
     text-decoration: underline; 
     text-decoration-thickness: 0.5px;
     text-underline-offset: 6px; 
@@ -295,7 +295,7 @@
     margin-top: 35px;
 }
 
-.normal{
+.nav-linkdos{
     text-decoration: underline; 
     text-decoration-thickness: 0.5px;
     text-underline-offset: 6px; 
@@ -917,6 +917,19 @@
     .activo .next:active{
         border: 2.5px solid var(--azul);
         transition: 0.3s;
+        background-color: var(--azul);
+        color: var(--cyan);
+        text-decoration: none;
+        transition: 0.4s;
+    }
+
+    .ubicacionactual .nav-link:hover{
+        background-color: var(--rosa);
+        color: var(--blanco);
+        text-decoration: none;
+    }
+
+    .ubicacionactual .nav-link:active{
         background-color: var(--azul);
         color: var(--cyan);
         text-decoration: none;
