@@ -2145,14 +2145,14 @@ section{
         transition: 0.1s;
     }
 
-    .figure:not(.noticiapuno):hover{
-        transform: none;
+    .noticiapuno {
+        &:not(img) {
+            &:hover {
+                pointer-events: none;
+            }
+        }
     }
 
-    .noticiapuno:active img{
-        transform: scale(1.1);
-        transition: 0.1s;
-    }
 }
 
 @media (max-width: 900px){
