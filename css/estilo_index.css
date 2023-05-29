@@ -2713,19 +2713,14 @@ section{
         color: var(--cyan);
     }
 
-
-    .redespie a:hover{
-        color: var(--cyan);
-    }
-
     .botonrosa:hover{
-        background-color: var(--blanco);
+        background-color: var(--azul);
         text-decoration: none;
         height: 48px;
         width: 140px;
-        border: 2.5px solid var(--rosa); 
+        border: 2.5px solid var(--azul); 
         transition: 0.2s ease-in-out;
-        transform: scale(1);
+        transform: scale(1.1);
     }
 
     .botonrosa:hover a{
@@ -2764,7 +2759,7 @@ section{
         height: 48px;
         width: 140px;
         border: 2.5px solid var(--rosa); 
-        transform: scale(1.1);
+        transform: scale(1);
     }
 
     .botonrosa:hover a{
