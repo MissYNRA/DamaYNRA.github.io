@@ -182,7 +182,7 @@
     color: var(--azul);
 }
 
-.navpaginas a{
+.navpaginas .nav-link{
     font-size: 1.5em;
     font-weight: 600;
     border-radius: 50%;
@@ -200,7 +200,7 @@
     color: var(--azul);
 }
 
-.navpaginas a:hover{
+.navpaginas .nav-link:hover{
     text-decoration: underline; 
     text-decoration-thickness: 0.5px;
     text-underline-offset: 6px; 
@@ -591,7 +591,7 @@
     justify-content: space-around;
 }
 
-.navpaginas a{
+.navpaginas .nav-link{
     font-size: 1.5em;
     font-weight: 600;
     border-radius: 50%;
