@@ -2699,7 +2699,7 @@ section{
     }
 
     .redespie a:hover{
-        color: var(--blanco);
+        color: var(--cyan);
     }
 
     #nav .navegacion .dos:hover{
@@ -2728,19 +2728,19 @@ section{
         border: none;
     }
 
-    #nav .navegacion .dos{
+    #nav .navegacion .dos:hover{
         border: 2px solid var(--cyan);
         background-color: var(--blanco);
         color: var(--azul);
     }
     
-    #nav .navegacion .tres{
+    #nav .navegacion .tres:hover{
         border: 2px solid var(--rosa);
         background-color: var(--blanco);
         color: var(--azul);
     }
 
-    .redespie a{
+    .redespie a:hover{
         color: var(--blanco);
     }
 
