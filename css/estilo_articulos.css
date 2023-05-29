@@ -199,15 +199,15 @@
     min-width: 110px; 
     justify-content: space-between; 
     margin-left: 20px; 
-}
-
-.redescompartir a{
-    font-size: clamp(1.8rem, 1.5862rem + 0.3448vw, 2rem);
-    color: var(--azul);
     transition: 0.3s;
 }
 
-.redescompartir a:hover{
+.redescompartir .nav-link{
+    font-size: clamp(1.8rem, 1.5862rem + 0.3448vw, 2rem);
+    color: var(--azul);
+}
+
+.redescompartir .nav-link:hover{
     color: var(--rosa);
 }
 
@@ -351,7 +351,7 @@
     margin-bottom: 40px;
 }
 
-.enlacetiquetas{
+.etiquetasvideo .enlacetiquetas{
     color: var(--azul);
     text-decoration: none;
     text-decoration: underline 0.1em var(--blanco);
@@ -360,7 +360,7 @@
     text-underline-offset: 6px; 
 }
 
-.enlacetiquetas:hover{
+.etiquetasvideo .enlacetiquetas:hover{
     color: var(--rosa);
     text-decoration: underline; 
     text-decoration-thickness: 0.5px;
@@ -920,6 +920,101 @@
     .tun .etiq h4{
         font-size: clamp(0.9rem, 0.0727rem + 2.3022vw, 1.5rem);
     }    
+
+    .etiquetas h4:hover{
+        background-color: var(--blanco);
+        border: 2.5px solid var(--azul);
+    }
+
+    .etiquetas h4:active{
+        background-color: var(--amarillo);
+        border: 2.5px solid var(--amarillo);
+        transition: 0.4s;
+    }
+
+    .redescompartir .nav-link:hover{
+        color: var(--azul);
+    }
+
+    .redescompartir .nav-link:active{
+        color: var(--rosa);
+        transition: 0.4s;
+    }
+
+    .noticiasvarias:hover img{
+        transform: scale(1);
+    }
+
+    .articulos:hover .etiq h4{
+        background-color: var(--amarillo);
+    }
+    
+    .titulos:hover .cambiodos{
+        color: var(--blanco);
+    }
+
+    .noticiasvarias:active img{
+        transform: scale(1.1);
+        transition: 0.4s;
+    }
+
+    .articulos:active .etiq h4{
+        background-color: var(--blanco);
+        transition: 0.4s;
+    }
+    
+    .titulos:active .cambiodos{
+        color: var(--amarillo);
+        transition: 0.4s;
+    }
+
+    .card:hover .imagen{
+        width: 100%;
+        height: 100%;
+        transform: scale(1);
+    }
+
+    .card:hover .etirelacionados h4{
+        background-color: var(--amarillo);
+    }
+
+    .card:hover em{
+        color: var(--blanco);
+    }
+
+    .card:active .imagen{
+        width: 100%;
+        height: 100%;
+        transform: scale(1.1);
+        transition: 0.4s;
+    }
+
+    .card:active .etirelacionados h4{
+        background-color: var(--blanco);
+        transition: 0.4s;
+    }
+
+    .card:active em{
+        color: var(--amarillo);
+        transition: 0.4s;
+    }
+    
+    .etiquetasvideo .enlacetiquetas:hover{
+        color: var(--azul);
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--blanco);
+    }
+
+    .etiquetasvideo .enlacetiquetas:active{
+        color: var(--rosa);
+        text-decoration: underline; 
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 6px; 
+        text-decoration-color: var(--rosa);
+        transition: 0.4s;
+    }
 }
 
 
