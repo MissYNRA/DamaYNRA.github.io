@@ -494,7 +494,7 @@ textarea[type=area]:focus{
         padding: 60px 80px 60px 80px;
     }
     
-    .redescontacto a i{
+    .redescontacto .nav-link i{
         margin-right: 8px;
     }
 
@@ -535,7 +535,7 @@ textarea[type=area]:focus{
         margin: 20px;
     }
     
-    .redescontacto a i{
+    .redescontacto .nav-link i{
         font-size: 1.5em;
         display: flex;
         align-items: center;
@@ -557,15 +557,21 @@ textarea[type=area]:focus{
         background-color: var(--blanco);
         text-decoration: none;
         border: 2.5px solid var(--rosa);
-        color: var(--cyan); 
+        color: var(--azul); 
     }
 
-    .botonrosa:hover{
+    .botonrosa:active{
         background-color: var(--azul);
         text-decoration: none;
         border: 2.5px solid var(--azul);
         color: var(--cyan); 
         transition: 0.4s;
+    }
+
+    textarea[type=area]:focus{
+        border: 2px solid var(--rosa);
+        outline: none;
+    
     }
 
 }
