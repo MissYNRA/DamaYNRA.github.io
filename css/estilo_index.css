@@ -765,7 +765,6 @@ section{
 .infobanner h2{
     font-size: clamp(1.6rem, 1.2602rem + 1.4498vw, 3rem);
     margin-bottom: 20px;
-    line-height: 35px;
     font-weight: 400;
 }
 
