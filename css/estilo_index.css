@@ -2215,6 +2215,120 @@ section{
         transition: 0.4s;
     }
 
+    .botonrosa:hover{
+        background-color: var(--blanco);
+        text-decoration: none;
+        height: 48px;
+        width: 140px;
+        border: 2.5px solid var(--rosa); 
+        transform: scale(1);
+    }
+
+    .botonrosa:hover a{
+        color: var(--azul);
+        font-weight: 600;
+        transition: .1s;
+    }
+
+    .botonrosa:active{
+        background-color: var(--azul);
+        text-decoration: none;
+        height: 48px;
+        width: 140px;
+        border: 2.5px solid var(--azul); 
+        transform: scale(1.1);
+        transition: 0.4s;
+    }
+    
+    .botonrosa:active a{
+        color: var(--cyan);
+        font-weight: 400;
+        transition: 0.4s;
+    }
+
+    .botonblanco:hover{
+        height: 48px;
+        width: 140px;
+        border: 2.5px solid var(--rosa); 
+        transform: scale(1);
+        box-shadow: none;
+        background-color: transparent;
+        color: var(--blanco);
+    }
+
+    .botonblanco:hover a{
+        color: var(--blanco);
+        font-weight: 400;
+    }
+
+    .botonblanco:active{
+        height: 48px;
+        width: 140px;
+        border: 2.5px solid var(--cyan); 
+        transform: scale(1.1);
+        background-color: var(--cyan);
+        transition: 0.4s;
+        
+    }
+
+    .botonblanco:active a{
+        color: var(--azul);
+        font-weight: 600;
+        transition: 0.4s;
+    }
+
+    .botonazul:hover{
+        height: 50px;
+        width: 160px;
+        border: 2.5px solid var(--azul); 
+        background-color: var(--azul);
+    }
+
+    .botonazul:hover a{
+        color: var(--blanco);
+        font-weight: 400;
+    }
+
+    .botonazul:active{
+        height: 50px;
+        width: 160px;
+        border: 2.5px solid var(--amarillo); 
+        background-color: var(--amarillo);
+        transition: 0.4s;
+    }    
+
+    .botonazul:active a{
+        color: var(--azul);
+        font-weight: 600;
+        transition: 0.4s;
+    }
+
+    .topsinfo:hover img{
+        transform: scale(1);
+    }
+
+    .topsinfo:hover .etiquetas h4{
+        background-color: var(--amarillo);
+    }
+
+    .topsinfo:hover .cambiouno{
+        color: var(--blanco);
+    }
+
+    .topsinfo:active img{
+        transform: scale(1.1);
+        transition: 0.4s;
+    }
+
+    .topsinfo:active .etiquetas h4{
+        background-color: var(--blanco);
+        transition: 0.4s;
+    }
+
+    .topsinfo:active .cambiouno{
+        color: var(--amarillo);
+    }
+
 }
 
 @media (max-width: 900px){
