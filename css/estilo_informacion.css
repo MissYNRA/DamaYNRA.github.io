@@ -154,7 +154,7 @@
     height: auto;  
 }
 
-.redescontacto a{
+.redescontacto .nav-link{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -166,12 +166,12 @@
     transition: 0.3s;
 }
 
-.redescontacto a:hover{
+.redescontacto .nav-link:hover{
     color: var(--rosa);
 }
 
 
-.redescontacto a i{
+.redescontacto .nav-link i{
     font-size: 1.5em;
     display: flex;
     align-items: center;
@@ -225,9 +225,10 @@ input[type=email]:focus {
     outline: none;
 }
 
-textarea:focus{
+textarea[type=area]:focus{
     border: 2px solid var(--rosa);
     outline: none;
+
 }
 
 .cajanombre ::placeholder{
@@ -533,9 +534,6 @@ textarea:focus{
         font-size: 1.1em;
         margin: 20px;
     }
-    .redescontacto a:hover{
-        color: var(--rosa);
-    }
     
     .redescontacto a i{
         font-size: 1.5em;
@@ -545,6 +543,30 @@ textarea:focus{
         height: auto;;
         margin-right: 8px;
     } 
+
+    .redescontacto .nav-link:hover{
+        color: var(--azul);
+    }
+
+    .redescontacto .nav-link:active{
+        color: var(--rosa);
+        transition: 0.4s;
+    }
+
+    .botonrosa:hover{
+        background-color: var(--blanco);
+        text-decoration: none;
+        border: 2.5px solid var(--rosa);
+        color: var(--cyan); 
+    }
+
+    .botonrosa:hover{
+        background-color: var(--azul);
+        text-decoration: none;
+        border: 2.5px solid var(--azul);
+        color: var(--cyan); 
+        transition: 0.4s;
+    }
 
 }
 
@@ -656,12 +678,3 @@ textarea:focus{
 }
 
 /* -------------------------------Menu Contacto-------------------------------- */
-
-
-@media (hover: none) {
-
-    .redescontacto a:hover{
-        color: var(--azul);
-    }
-
-}
