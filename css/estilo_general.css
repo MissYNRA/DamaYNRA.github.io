@@ -1101,27 +1101,27 @@ section{
     }
 
     #nav .navegacion .dos{
-        height: 45px;
-        width: 45px;
+        height: 50px;
+        width: 50px;
     }
     
     #nav .navegacion .tres{
-        height: 45px;
-        width: 45px;
+        height: 50px;
+        width: 50px;
     }
     
     #nav .navegacion .dos i{
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.6em;
+        font-size: 1.8em;
     }
     
     #nav .navegacion .tres i{
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.6em;
+        font-size: 1.8em;
     }
 
 

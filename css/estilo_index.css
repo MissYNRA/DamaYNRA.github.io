@@ -2701,6 +2701,7 @@ section{
     .redespie a:hover{
         color: var(--blanco);
     }
+
     #nav .navegacion .dos:hover{
         border: 2px solid var(--azul);
         background-color: var(--azul);
@@ -2724,7 +2725,7 @@ section{
     }
 
     .botonrosa:hover a{
-        color: var(--cyan);
+        color: var(--azul);
         font-weight: 400;
     }
 
@@ -2759,11 +2760,10 @@ section{
         height: 48px;
         width: 140px;
         border: 2.5px solid var(--rosa); 
-        transform: scale(1);
     }
 
     .botonrosa:hover a{
-        color: var(--azul);
+        color: var(--cyan);
         font-weight: 400;
     }
 }
