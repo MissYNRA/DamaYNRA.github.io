@@ -283,6 +283,7 @@
 .subimg hr{
     border: 1.5px solid #1c2037;
     margin-bottom: 40px;
+    border-radius: 3px;
 }
 
 .imgarticulos{
@@ -396,6 +397,7 @@
     display: none; 
     margin-top: 0; 
     border: 1.5px solid var(--azul);
+    border-radius: 5px;
 }
 
 .infpopular .lineabajo{
@@ -403,6 +405,7 @@
     margin-top: 0; 
     border: 1.5px solid var(--azul);
     margin-bottom: 45px;
+    border-radius: 5px;
 }
 
 .infpopular h5{
