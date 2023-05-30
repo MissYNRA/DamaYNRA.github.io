@@ -163,6 +163,7 @@
 .puntolinea{
     margin-top: 0; 
     border: 1.5px solid #1c2037; 
+    border-radius: 3px;
     display: none;
     width: 100%;
 }
@@ -814,12 +815,8 @@
         width: 100%;
     }
     
-    .redescompartir{
-        min-width: 125px; 
-    }
-    
     .redescompartir .nav-link{
-        font-size: 2.2rem;
+        font-size: 2.3rem;
     }
 }
 
@@ -1300,6 +1297,18 @@
     .imagenautor img{
         height: 100%;
     } 
+    
+    .compartir{
+        margin: 0px 30px 0px 30px;
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between; 
+    }
+    
+    .redescompartir{
+        min-width: 134px; 
+        margin-left: 0px;
+    }
 }
 
 
