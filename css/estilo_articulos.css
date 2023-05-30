@@ -813,6 +813,10 @@
         display: block;
         width: 100%;
     }
+    
+    .redescompartir{
+        min-width: 120px; 
+    }
 }
 
 @media (max-width: 1200px) {
