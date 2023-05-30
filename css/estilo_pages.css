@@ -576,7 +576,7 @@
 }
 
 
-@media (max-width: 576px) {
+@media (min-width: 100px) and (max-width: 922px){
 
     #nav .navegacion .valido{
         color: var(--azul);
