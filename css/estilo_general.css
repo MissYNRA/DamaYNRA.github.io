@@ -1085,6 +1085,30 @@ section{
     }
 }
 
+@media screen and (max-height:500px){
+
+    #nav .barra{
+        overflow-y: auto;
+        max-height: 300px;
+    }
+}
+
+@media screen and (max-height:360px){
+
+    #nav .barra{
+        overflow-y: auto;
+        max-height: 250px;
+    }
+}
+
+@media screen and (max-height:300px){
+
+    #nav .barra{
+        overflow-y: auto;
+        max-height: 200px;
+    }
+}
+
 @media (min-width: 100px) and (max-width: 920px) {
     
     #nav{
