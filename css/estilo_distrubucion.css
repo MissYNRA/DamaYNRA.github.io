@@ -799,9 +799,8 @@
 
 /* --------------------------------Media Tops---------------------------------- */
 
-@media (max-width: 992px) {
+@media ((max-width: 992px) {
 
-   
         
     #nav .navegacion .valido{
         color: var(--azul);
@@ -957,7 +956,7 @@
 }
 
 
-@media (min-width: 100px) and (max-width: 922px){
+@media (max-width: 922px){
 
     #nav .navegacion .valido{
         color: var(--azul);
