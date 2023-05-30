@@ -2482,7 +2482,7 @@ section{
     }
 }
 
-@media (max-width: 576px){
+@media (min-width: 100px) and (max-width: 920px){
 
     #nav{
         height: 80px;
