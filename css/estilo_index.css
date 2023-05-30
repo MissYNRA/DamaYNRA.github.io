@@ -2486,7 +2486,7 @@ section{
 
     #nav .barra{
         overflow-y: auto;
-        max-height: 300px;
+        max-height: 80vh;
     }
 }
 
@@ -2494,7 +2494,7 @@ section{
 
     #nav .barra{
         overflow-y: auto;
-        max-height: 250px;
+        max-height: 75vh;
     }
 }
 
@@ -2502,7 +2502,7 @@ section{
 
     #nav .barra{
         overflow-y: auto;
-        max-height: 200px;
+        max-height: 60vh;
     }
 }
 
