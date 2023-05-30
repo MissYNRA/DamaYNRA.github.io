@@ -1100,7 +1100,7 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 100px) and (max-width: 922px){
 
     .articulosrelleno{
         margin: 20px 0px 20px 0px;
