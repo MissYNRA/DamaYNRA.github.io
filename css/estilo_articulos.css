@@ -203,7 +203,7 @@
 }
 
 .redescompartir .nav-link{
-    font-size: clamp(1.8rem, 1.5862rem + 0.3448vw, 2rem);
+    font-size: 2rem;
     color: var(--azul);
 }
 
