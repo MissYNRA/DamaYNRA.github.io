@@ -797,6 +797,82 @@
     
 }
 
+@media (max-width: 922px) {
+
+    #nav .navegacion .validodos{
+        color: var(--azul);
+        text-align: center;
+        height: 50px;
+        min-width: 200px;   
+        letter-spacing: 0.5px;
+        font-size: 1.1em;
+        font-weight: 500;
+        border-bottom: 1px solid #1c2037c3;
+        font-style: normal;
+        transition: 0.3s;
+        transform: scale(1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #00f2ad; 
+    }
+    
+       #nav .navegacion .valido{
+        color: var(--azul);
+        text-align: center;
+        height: 50px;
+        min-width: 200px;   
+        letter-spacing: 0.5px;
+        font-size: 1.1em;
+        font-weight: 500;
+        border-bottom: 1px solid #1c2037c3;
+        border-top: 1px solid #1c2037c3;
+        font-style: normal;
+        transition: 0.3s;
+        transform: scale(1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #00f2ad; 
+    }
+    
+      #nav .navegacion .validouno{
+        color: var(--azul);
+        text-align: center;
+        height: 50px;
+        min-width: 200px;   
+        letter-spacing: 0.5px;
+        font-size: 1.1em;
+        font-weight: 500;
+        font-style: normal;
+        border-top: 1px solid #1c2037c3;
+        border-bottom: none;
+        transition: 0.3s;
+        transform: scale(1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #00f2ad; 
+    }
+    
+        #distribuciont{
+        margin-top: 50px;
+    }
+    
+        #distribucionc{
+        margin-top: 50px;
+    }
+    
+        #noticias{
+        margin-top: 50px;
+    }
+    
+        #etiquetas{
+        margin-top: 50px;
+    }
+
+}
+
 /* --------------------------------Media Tops---------------------------------- */
 
 @media (max-width: 992px) {
@@ -1188,65 +1264,6 @@
     
 }
 
-@media (max-width: 922px) {
-
-    #nav .navegacion .validodos{
-        color: var(--azul);
-        text-align: center;
-        height: 50px;
-        min-width: 200px;   
-        letter-spacing: 0.5px;
-        font-size: 1.1em;
-        font-weight: 500;
-        border-bottom: 1px solid #1c2037c3;
-        font-style: normal;
-        transition: 0.3s;
-        transform: scale(1);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #00f2ad; 
-    }
-    
-       #nav .navegacion .valido{
-        color: var(--azul);
-        text-align: center;
-        height: 50px;
-        min-width: 200px;   
-        letter-spacing: 0.5px;
-        font-size: 1.1em;
-        font-weight: 500;
-        border-bottom: 1px solid #1c2037c3;
-        border-top: 1px solid #1c2037c3;
-        font-style: normal;
-        transition: 0.3s;
-        transform: scale(1);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #00f2ad; 
-    }
-    
-      #nav .navegacion .validouno{
-        color: var(--azul);
-        text-align: center;
-        height: 50px;
-        min-width: 200px;   
-        letter-spacing: 0.5px;
-        font-size: 1.1em;
-        font-weight: 500;
-        font-style: normal;
-        border-top: 1px solid #1c2037c3;
-        border-bottom: none;
-        transition: 0.3s;
-        transform: scale(1);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #00f2ad; 
-    }
-}
-
 @media (max-width: 576px) {
 
     #nav .navegacion .validodos{
@@ -1388,28 +1405,6 @@
         margin-right: 60px;
     }
     
-}
-
-@media (max-width: 922px) {
-
-    #nav .navegacion .validouno{
-        color: var(--azul);
-        text-align: center;
-        height: 50px;
-        min-width: 200px;   
-        letter-spacing: 0.5px;
-        font-size: 1.1em;
-        font-weight: 500;
-        font-style: normal;
-        border-top: 1px solid #1c2037c3;
-        border-bottom: none;
-        transition: 0.3s;
-        transform: scale(1);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #00f2ad; 
-    }
 }
 
 @media (max-width: 576px) {
