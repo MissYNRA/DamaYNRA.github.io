@@ -955,6 +955,61 @@
 
 }
 
+@media (max-width: 576px) {
+
+    #etiquetas{
+        margin-top: 50px;
+    }
+
+    .articulos{ 
+        width: 100%;
+        height: 11.5%;
+        margin-bottom: 15px;
+    }
+
+    .menuetiquetas{
+        display: flex; 
+        flex-wrap: wrap; 
+        margin-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px; 
+    }
+
+    .titulotops {
+        margin-bottom: -6px;
+        width: 100%;
+    }
+
+    .articulosetiquetas{
+        padding-left: 33px; 
+        padding-right: 33px;
+    }
+
+    .tituloetiquetas{
+        margin-bottom: 10px;
+        width: 100%;
+    } 
+
+    .tituloetiquetas h2{
+        font-size: 2.6em; 
+        margin-bottom: -7px;
+    }
+    
+    .tituloetiquetas h3{
+        font-size: 1.2em;
+    }
+
+    .menuetiquetas hr{
+        width: 100%;
+    }
+
+    .bannerp{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+}
+
 /* --------------------------------Media Tops---------------------------------- */
 
 /* ------------------------------Media Etiquetas------------------------------- */
