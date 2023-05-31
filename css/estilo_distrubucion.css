@@ -957,7 +957,26 @@
 
 @media (max-width: 576px) {
 
-    #etiquetas{
+    #nav .navegacion .valido{
+        color: var(--azul);
+        text-align: center;
+        height: 50px;
+        min-width: 200px;   
+        letter-spacing: 0.5px;
+        font-size: 1.1em;
+        font-weight: 500;
+        border-bottom: 1px solid #1c2037c3;
+        border-top: 1px solid #1c2037c3;
+        font-style: normal;
+        transition: 0.3s;
+        transform: scale(1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #00f2ad; 
+    }
+
+    #distribuciont{
         margin-top: 50px;
     }
 
@@ -967,7 +986,7 @@
         margin-bottom: 15px;
     }
 
-    .menuetiquetas{
+    .menutops{
         display: flex; 
         flex-wrap: wrap; 
         margin-bottom: 15px;
@@ -975,34 +994,36 @@
         padding-right: 30px; 
     }
 
-    .titulotops {
-        margin-bottom: -6px;
-        width: 100%;
-    }
-
-    .articulosetiquetas{
+    .articulost{
         padding-left: 33px; 
         padding-right: 33px;
     }
 
-    .tituloetiquetas{
+    .titulotops{
         margin-bottom: 10px;
         width: 100%;
     } 
 
-    .tituloetiquetas h2{
-        font-size: 2.6em; 
-        margin-bottom: -7px;
-    }
-    
-    .tituloetiquetas h3{
-        font-size: 1.2em;
-    }
-
-    .menuetiquetas hr{
+    .menutops hr{
         width: 100%;
     }
 
+    .titulotops h2{
+        font-size: 2.6em; 
+    }
+
+    .titulost .etiquetas h4{
+        font-size: clamp(0.9rem, -0.0375rem + 4vw, 1.4rem);
+    }
+
+    .titulost h2{
+        font-size: clamp(1.2rem, -0.3rem + 6.4vw, 2rem);
+    }
+    
+    .titulost time{
+        font-size: clamp(0.9rem, -0.0375rem + 4vw, 1.4rem);
+    }
+    
     .bannerp{
         margin-left: 35px;
         margin-right: 35px;
