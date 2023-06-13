@@ -994,6 +994,7 @@ section{
     transition: transform 0.3s linear;
     z-index: 100;
     pointer-events: all;
+    user-select: none;
 }
 
 #right{
@@ -1016,6 +1017,7 @@ section{
     transition: transform 0.3s linear;
     z-index: 100;
     pointer-events: all;
+    user-select: none;
 }
 
 #left:active{
