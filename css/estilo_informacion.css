@@ -9,6 +9,10 @@
 
 /* -------------------------------Menu Nosotros------------------------------- */
 
+*{
+    user-select: none;
+}
+
 .cajanosotros{
     padding: 0;
     height: 500px;
