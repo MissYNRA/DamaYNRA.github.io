@@ -44,9 +44,13 @@ section{
     z-index: 10000;
     background-color: var(--blanco);
 }
+
+#nav .logo{
+    margin-left: 80px;
+}
+
 #nav .logo img{
     height: 80px; 
-    margin-left: 80px;
     transform: scale(1);
     transition: 0.3s;
 }
