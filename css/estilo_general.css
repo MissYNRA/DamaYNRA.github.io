@@ -48,9 +48,12 @@ section{
     z-index: 100000000000;
     background-color: var(--blanco);
 }
+#nav .logo{
+    margin-left: 80px;
+}
+
 #nav .logo img{
     height: 80px; 
-    margin-left: 80px;
     transform: scale(1);
     transition: 0.3s;
 }
@@ -814,9 +817,12 @@ section{
         margin: 0;
     }
 
+    #nav .logo{
+        margin-left: 50px;
+    }
+    
     #nav .logo img{
         height: 80px; 
-        margin-left: 50px;
     }
     
     #nav .navegacion{
@@ -1126,9 +1132,12 @@ section{
         padding-right: 0.0px;
     }
 
+    #nav .logo{
+        margin-left: 8px;
+    }
+    
     #nav .logo img{
         height: 45px;
-        margin-left: 8px;
     }
 
 
