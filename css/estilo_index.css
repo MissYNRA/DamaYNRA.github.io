@@ -1739,9 +1739,14 @@ section{
         margin: 0;
     }
 
+    #nav .logo{
+        margin-left: 50px;
+    }
+    
+
     #nav .logo img{
         height: 80px; 
-        margin-left: 50px;
+
     }
     
     #nav .navegacion{
@@ -2529,9 +2534,13 @@ section{
         padding-right: 0.0px;
     }
 
+
+    #nav .logo{
+        margin-left: 8px;
+    }
+    
     #nav .logo img{
         height: 45px;
-        margin-left: 8px;
     }
 
 
